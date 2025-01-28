@@ -1,0 +1,89 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 标题样式 */
+h2 {
+    color: #333;
+    border-bottom: 3px solid #ff9800;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* 表单样式 */
+form {
+    background: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* 按钮样式 */
+button {
+    background: #ff9800;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+/* 表格样式 */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* 过期商品高亮 */
+.expired {
+    background-color: #ffcccc !important;
+}
+
+/* 链接样式 */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #45a049;
+}
